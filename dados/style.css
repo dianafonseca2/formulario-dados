@@ -1,0 +1,21 @@
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+legend {
+    color: #1877f2;
+}
+
+.one {
+    background-color: #1877f2;
+    font-weight: bold;
+    border: none;
+    color: white;
+    height: 25px; width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}

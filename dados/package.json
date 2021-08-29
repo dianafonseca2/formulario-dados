@@ -1,0 +1,13 @@
+{
+  "name": "dados",
+  "version": "1.0.0",
+  "description": "formulário dados pessoais ",
+  "main": "dados.html",
+  "scripts": {
+  },
+  "keywords": [
+    "dados"
+  ],
+  "author": "diana",
+  "license": "ISC"
+}

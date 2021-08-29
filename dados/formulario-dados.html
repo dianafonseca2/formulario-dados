@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados pessoais</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+        <legend>Dados pessoais:</legend>
+
+        <br>
+
+        <input type="text" id="nome" placeholder="Nome">
+
+        <br><br>
+        
+        <input type="number" id="idade" placeholder="Idade">
+
+        <br><br>
+
+        <legend>Dados profissionais:</legend>
+
+        <br>
+        
+        <label for="escolaridade">Escolaridade:</label>
+        <select id="escolaridade">
+            <option value="ensinoMedio">Ensino médio</option>
+            <option value="graduacao">Graduação</option>
+            <option value="posGraduacao">Pós-graduação</option>
+            <option value="outros">Outros</option>
+        </select>
+        
+        <br><br>
+
+        <label>Área de atuação:</label>
+        <input type="radio" id="gerencia" name="cargo" value="gerencia">
+        <label for="gerencia">Gerência</label>
+        <input type="radio" id="financeiro" name="cargo" value="financeiro">
+        <label for="financeiro">Financeiro</label>
+        <input type="radio" id="recepcao" name="cargo" value="recepcao">
+        <label for="recepcao">Recepção</label>
+
+        <br><br>
+
+        <input type="submit" class="one" value="Enviar"> 
+    </form>
+</body>
+</html>
